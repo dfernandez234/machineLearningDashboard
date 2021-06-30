@@ -1,0 +1,202 @@
+.mainDiv{
+    background-color: #192444;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+.mainContainer{
+    background-color: #192444;
+}
+
+.navContainer{
+    margin: 0;
+    padding-bottom: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+.chartSidebar{
+    position: fixed;
+    top: 7%;
+    left: 0;
+    bottom: 0;
+    width: 4.4rem;
+    background-color: #0f0f0f;
+    padding-top: 1rem;
+
+}
+
+.controlSidebar{
+    position: fixed;
+    top: 7%;
+    left: 3.5%;
+    bottom: 0;
+    width: 20rem;
+    background-color: #0f0f0f;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+hr{
+    margin-block-start: 0;
+    margin-block-end: 8%;
+}
+
+.hrSlider{
+    margin-block-start: 3%;
+    margin-block-end: 2%;
+}
+
+
+.custom-tabs-container {
+    width: 100%;
+}
+.custom-tabs {
+    border-top-left-radius: 3px;
+    background-color: #192444;
+    padding: 0px 24px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.custom-tab {
+    color:#586069;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top: 3px solid transparent !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    background-color: #192444;
+    padding: 12px !important;
+    font-family: "system-ui";
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.custom-tab--selected {
+    color: black;
+    box-shadow: 1px 1px 0px #192444;
+    border-left: 1px solid #192444 !important;
+    border-right: 1px solid #192444 !important;
+    border-top: 3px solid #e36209 !important;
+    background-color: #192444;
+}
+
+.control-sidebar {
+    width: 30%;
+    height: 100%;
+    background-color: #54a;
+    transition: 1s ease;
+    position: fixed;
+    margin-right: 0%;
+  }
+  
+  .main-content {
+    width: max-content;
+    height: 100%;
+    background-color: #002a38;
+    transition: 1s ease;
+  }
+  
+  .main-content_large {
+    position: fixed;
+    padding: 2rem 1rem;
+    background-color: #0f0f0f;
+    width: 82.5%;
+    top: 0;
+    left: 18.5%;
+    bottom:0;
+    overflow-x:hidden;
+    overflow-y: scroll;
+  }
+  
+  .sidebar_small {
+    width: 10%;
+  }
+
+  .topNav{
+    top: 0%;
+    left: 0%;
+    width: 365px;
+    height: 60px;
+    background-color: #0f0f0f;
+  }
+
+.nav_logo{
+    width: 75px;
+    height: 60px;
+    left: 0%;
+}
+
+.drop_links{
+    top: 12px;
+    left: 14%;
+    position: fixed;
+    z-index: 10;
+}
+
+  
+
+/* (1600x900) HD+ Display */
+@media (max-width: 1800px) {
+
+    .controlSidebar{
+        position: fixed;
+        top: 7%;
+        left: 3.5%;
+        bottom: 0;
+        width: 15rem;
+        background-color: #0f0f0f;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        overflow-x:hidden;
+        overflow-y: scroll;
+    }
+
+
+    #mainControlSidebar{
+        width: 15rem;
+    }    
+
+    #controlTable{
+        width: 15rem;
+        padding-left: 0rem;
+        margin-left: 12px;
+    }
+
+    #controlSidebar_pie{
+        width: 15rem;
+    }
+  
+    #controlSidebar_line{
+        width: 15rem;
+    }
+  
+    .main-content_large {
+        position: fixed;
+        padding: 2rem 1rem;
+        background-color: #0f0f0f;
+        width: 82.5%;
+        top: 0;
+        left: 18.5%;
+        bottom:0;
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+
+    #btn_xlxs{
+        width: 200px;
+    }
+
+    .drop_links{
+        top: 12px;
+        left: 13%;
+        position: fixed;
+        z-index: 10;
+    }
+  }
